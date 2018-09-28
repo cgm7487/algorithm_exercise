@@ -20,7 +20,6 @@ int knapSack(int W, int wt[], int val[], int n) {
             else 
                 K[i][w]=K[i-1][w];
         }
-
     }
     return K[n][W];
 }
